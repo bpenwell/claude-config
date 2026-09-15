@@ -1,0 +1,6 @@
+# Never commit resolved secrets or machine-local state.
+*.env
+!mcp/env.example
+mcp/servers.json
+private/
+.DS_Store
