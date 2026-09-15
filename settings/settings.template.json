@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash ~/.claude/hooks/auto-format.sh",
+            "command": "node \"{{HOOKS_DIR}}/auto-format.mjs\"",
             "async": true
           }
         ]
@@ -18,7 +18,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash ~/.claude/hooks/block-sensitive-commit.sh",
+            "command": "node \"{{HOOKS_DIR}}/block-sensitive-commit.mjs\"",
             "timeout": 10
           }
         ]
