@@ -57,7 +57,7 @@ The repo's rules still apply: `AGENTS.md` "Shipping" + "Opening pull requests", 
 > 3. Bugs: reproduce first. If it no longer reproduces, close it with evidence, remove the worktree and report "stale".
 > 4. Smallest complete change. Rules go in `src/sim` (pure RefCounted), visuals in `src/game`. Add tests for every acceptance bullet,
 >    plus a `tests/visual/*_test.gd` screenshot for anything player-visible (`./scripts/visual_test.sh`). View the PNGs.
->    Update the owning `docs/features/<area>.md` and `ITERATIONS.md` (cite #<N>).
+>    Update the owning `docs/features/<area>.md` (decisions and why). There is no iteration log; the PR body is the record.
 > 5. Every side finding gets its own new issue (`gh issue create`, labels type/P/area) at the moment you notice it.
 > 6. Merge the latest `origin/main`, run `./scripts/check.sh` (must print `CHECK PASS`), `git add <your files>` only,
 >    commit `<summary> (#<N>)` ending with the Co-Authored-By trailer, check `git show --stat`, push.
