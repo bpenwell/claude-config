@@ -86,7 +86,7 @@ then `~/.claude/validate.*` (`.ps1`/`.cmd` are tried first on Windows). If none 
 allows the stop. It fails open everywhere — a broken validator never traps Claude.
 
 ### `skills/`
-`acpx`, `brainstorming`, `grill-me`, `humanizer`, `saas-launch-checklist`, `validate`.
+`acpx`, `brainstorming`, `football-janitor`, `football-ralph`, `grill-me`, `humanizer`, `saas-launch-checklist`, `validate`.
 
 Installed one directory at a time, so skills that exist only on one machine are left alone.
 
